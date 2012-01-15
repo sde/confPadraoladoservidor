@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6B44635-88A4-4135-849D-8BDC663CF054}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SDE</RootNamespace>
+    <AssemblyName>SDE</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Boleto.Net">
+      <HintPath>..\Boleto.Net\bin\Debug\Boleto.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Db4objects.Db4o, Version=7.10.96.13184, Culture=neutral, PublicKeyToken=6199cd4f203aa8eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\bibliotecas_terceiros\dll_db4o\Db4objects.Db4o.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Utils.Zip, Version=1.6.3.18, Culture=neutral, PublicKeyToken=c551e179877da246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\bibliotecas_terceiros\dll_zip\Ionic.Utils.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=4.1.6.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="weborb, Version=3.6.0.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\bibliotecas_terceiros\dll_weborb\weborb.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="baixaPdf.aspx.cs">
+      <DependentUpon>baixaPdf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="baixaPdf.aspx.designer.cs">
+      <DependentUpon>baixaPdf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarEmpresa.aspx.cs">
+      <DependentUpon>CadastrarEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadastrarEmpresa.aspx.designer.cs">
+      <DependentUpon>CadastrarEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="code\Atributos\AttrEntidade.cs" />
+    <Compile Include="code\CamadaControle\CBalanco.cs" />
+    <Compile Include="code\CamadaControle\CBanco.cs" />
+    <Compile Include="code\CamadaControle\CCliente.cs" />
+    <Compile Include="code\CamadaNuvem\CCorp.cs" />
+    <Compile Include="code\CamadaControle\CEmp.cs" />
+    <Compile Include="code\CamadaControle\CEstoque.cs" />
+    <Compile Include="code\CamadaControle\CFinanceiro.cs" />
+    <Compile Include="code\CamadaControle\CItem.cs" />
+    <Compile Include="code\CamadaControle\CMov.cs" />
+    <Compile Include="code\CamadaControle\CTecnico.cs" />
+    <Compile Include="code\CamadaControle\SuperControle.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_Cargo.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_Etiqueta.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_EnviaEmail.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_Estoque.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_Item.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_ListaCasamento.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_Nfe.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_Relatorio.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_Tecnico.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_Cliente.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_OrdemServico.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_Financeiro.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_SdeConfig.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_Balanco.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemListagem.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_TempMovNfe.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemModificacoes_Usuario.cs" />
+    <Compile Include="code\CamadaNuvem\NuvemNotificacoes.cs" />
+    <Compile Include="code\CamadaNuvem\ReaproveitamentoCodigo.cs" />
+    <Compile Include="code\CamadaNuvem\SuperNuvem.cs" />
+    <Compile Include="code\CamadaServico\SBalanco.cs" />
+    <Compile Include="code\CamadaServico\SBancoDados.cs" />
+    <Compile Include="code\CamadaServico\SCliente.cs" />
+    <Compile Include="code\CamadaServico\SCorp.cs" />
+    <Compile Include="code\CamadaServico\SFinanceiro.cs" />
+    <Compile Include="code\CamadaServico\SItem.cs" />
+    <Compile Include="code\CamadaServico\SLogin.cs" />
+    <Compile Include="code\CamadaServico\SMov.cs" />
+    <Compile Include="code\CamadaServico\SNfe.cs" />
+    <Compile Include="code\CamadaServico\SRelatorio.cs" />
+    <Compile Include="code\CamadaServico\STecnico.cs" />
+    <Compile Include="code\CamadaServico\SuperServico.cs" />
+    <Compile Include="code\ConfiguracoesArgox\EspacoMamaeBebe.cs" />
+    <Compile Include="code\ConfiguracoesArgox\ObraDensa.cs" />
+    <Compile Include="code\EntidadeNFE\EscreveItensNfe.cs" />
+    <Compile Include="code\EntidadeNFE\EscreveItensNfeTXT.cs" />
+    <Compile Include="code\Entidade\Balanco.cs" />
+    <Compile Include="code\Entidade\Caixa.cs" />
+    <Compile Include="code\Entidade\Cargo.cs" />
+    <Compile Include="code\Entidade\Cliente.cs" />
+    <Compile Include="code\Entidade\Corporacao.cs" />
+    <Compile Include="code\Entidade\CorpZero.cs" />
+    <Compile Include="code\Entidade\Empresa.cs" />
+    <Compile Include="code\Entidade\Financeiro.cs" />
+    <Compile Include="code\Entidade\Item.cs" />
+    <Compile Include="code\Constantes\Listas.cs" />
+    <Compile Include="code\Entidade\Mov.cs" />
+    <Compile Include="code\Entidade\OS.cs" />
+    <Compile Include="code\Entidade\TempMov.cs" />
+    <Compile Include="code\Entidade\Teste.cs" />
+    <Compile Include="code\Enumerador\Enumeradores.cs" />
+    <Compile Include="code\Enumerador\Enum_Empresas.cs" />
+    <Compile Include="code\pattern\Copy of GerenteConectividadeBancoDados.cs" />
+    <Compile Include="code\PDF\ComprovanteRetirada.cs" />
+    <Compile Include="code\PDF\ConstrutorPDF_Carne.cs" />
+    <Compile Include="code\PDF\ListaCasamento.cs" />
+    <Compile Include="code\PDF\PdfUtils.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelTitulosReceberPagarPorDia.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelAgrodefesa.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelCaixa.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelCheques.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelComissionamentoDinamico.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelEstoque.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelExtratoContaCorerenteCaixa.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelListagemBalanco.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelListaPreco.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelListaProdutoTributacao.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelOS.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelPisCofins.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelProdutosVendidosPeriodo.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelServicosPorPeriodo.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelTitulosReceberCalcJuros.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelTitulosReceberPagar.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelVerificacaoBalanco.cs" />
+    <Compile Include="code\RelatoriosPDF\RelCliente.cs" />
+    <Compile Include="code\RelatoriosPDF\RelFichaCliente.cs" />
+    <Compile Include="code\RelatoriosPDF\RelFichaPessoa.cs" />
+    <Compile Include="code\RelatoriosPDF\RelInventarios.cs" />
+    <Compile Include="code\RelatoriosPDF\RelListagemBalanco.cs" />
+    <Compile Include="code\RelatoriosPDF\RelListaPreco.cs" />
+    <Compile Include="code\RelatoriosPaginaWeb\RelEspelhoMov.cs" />
+    <Compile Include="code\RelatoriosPDF\RelListaProdutoTributacao.cs" />
+    <Compile Include="code\RelatoriosPDF\RelPedidoCompra.cs" />
+    <Compile Include="ImprimeRelCaixaCorp.aspx.cs">
+      <DependentUpon>ImprimeRelCaixaCorp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImprimeRelCaixaCorp.aspx.designer.cs">
+      <DependentUpon>ImprimeRelCaixaCorp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="code\MetodoCorretivo\MetodoCorretivo.cs" />
+    <Compile Include="imprimeRelCaixa.aspx.cs">
+      <DependentUpon>imprimeRelCaixa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="imprimeRelCaixa.aspx.designer.cs">
+      <DependentUpon>imprimeRelCaixa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="imprime_old.aspx.cs">
+      <DependentUpon>imprime_old.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="imprime_old.aspx.designer.cs">
+      <DependentUpon>imprime_old.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notacasadafazenda.aspx.cs">
+      <DependentUpon>notacasadafazenda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notacasadafazenda.aspx.designer.cs">
+      <DependentUpon>notacasadafazenda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="code\Outros\Atualizacao.cs" />
+    <Compile Include="code\Outros\Financeiro.cs" />
+    <Compile Include="code\Outros\Objeto.cs" />
+    <Compile Include="code\Outros\PagamentoDigital.cs" />
+    <Compile Include="code\Parametro\Parametros.cs" />
+    <Compile Include="code\pattern\AppFacade.cs" />
+    <Compile Include="code\pattern\GerenteCacheBancoDadosCliente.cs" />
+    <Compile Include="code\pattern\GerenteConectividadeBancoDados.cs" />
+    <Compile Include="code\Constantes\Variaveis_SdeConfig.cs" />
+    <Compile Include="code\PDF\ConstrutorPDF.cs" />
+    <Compile Include="code\Utils\ExcecaoSDE.cs" />
+    <Compile Include="code\Utils\NumericFuncs.cs" />
+    <Compile Include="code\Utils\Utils.cs" />
+    <Compile Include="Corretivos.aspx.cs">
+      <DependentUpon>Corretivos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Corretivos.aspx.designer.cs">
+      <DependentUpon>Corretivos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="detalhes.aspx.cs">
+      <DependentUpon>detalhes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="detalhes.aspx.designer.cs">
+      <DependentUpon>detalhes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="devtesting.aspx.cs">
+      <DependentUpon>devtesting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="devtesting.aspx.designer.cs">
+      <DependentUpon>devtesting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadNFE.asmx.cs">
+      <DependentUpon>DownloadNFE.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="imprime.aspx.cs">
+      <DependentUpon>imprime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="imprime.aspx.designer.cs">
+      <DependentUpon>imprime.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="injecao.aspx.cs">
+      <DependentUpon>injecao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="injecao.aspx.designer.cs">
+      <DependentUpon>injecao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notaagritom.aspx.cs">
+      <DependentUpon>notaagritom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notaagritom.aspx.designer.cs">
+      <DependentUpon>notaagritom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notaeletroverde.aspx.cs">
+      <DependentUpon>notaeletroverde.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notaeletroverde.aspx.designer.cs">
+      <DependentUpon>notaeletroverde.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notamoremaxx.aspx.cs">
+      <DependentUpon>notamoremaxx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notamoremaxx.aspx.designer.cs">
+      <DependentUpon>notamoremaxx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notatotalaco.aspx.cs">
+      <DependentUpon>notatotalaco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notatotalaco.aspx.designer.cs">
+      <DependentUpon>notatotalaco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notavivati.aspx.cs">
+      <DependentUpon>notavivati.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notavivati.aspx.designer.cs">
+      <DependentUpon>notavivati.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notaprefeitura.aspx.cs">
+      <DependentUpon>notaprefeitura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notaprefeitura.aspx.designer.cs">
+      <DependentUpon>notaprefeitura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PDF.aspx.cs">
+      <DependentUpon>PDF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PDF.aspx.designer.cs">
+      <DependentUpon>PDF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="baixaPdf.aspx" />
+    <Content Include="ImprimeRelCaixaCorp.aspx" />
+    <Content Include="htmlcss\imprimeRelCaixa.css" />
+    <Content Include="imprimeRelCaixa.aspx" />
+    <Content Include="imprime_old.aspx" />
+    <Content Include="notacasadafazenda.aspx" />
+    <Content Include="devtesting.aspx" />
+    <Content Include="img\ajax-loader1.gif" />
+    <Content Include="CadastrarEmpresa.aspx" />
+    <Content Include="Corretivos.aspx" />
+    <Content Include="detalhes.aspx" />
+    <Content Include="DownloadNFE.asmx" />
+    <Content Include="htmlcss\imprime.css" />
+    <Content Include="imprime.aspx" />
+    <Content Include="injecao.aspx" />
+    <Content Include="notaagritom.aspx" />
+    <Content Include="notaeletroverde.aspx" />
+    <Content Include="notamoremaxx.aspx" />
+    <Content Include="notatotalaco.aspx" />
+    <Content Include="notavivati.aspx" />
+    <Content Include="notaprefeitura.aspx" />
+    <Content Include="PDF.aspx" />
+    <Content Include="WEB-INF\flex\data-management-config.xml" />
+    <Content Include="WEB-INF\flex\messaging-config.xml" />
+    <Content Include="WEB-INF\flex\remoting-config.xml" />
+    <Content Include="WEB-INF\flex\services-config.xml" />
+    <Content Include="WEB-INF\flex\weborb-services-config.xml" />
+    <Content Include="weborb.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>2050</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

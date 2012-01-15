@@ -1,0 +1,16 @@
+D:\Fontes\fontesDotNet\sde2\DOTNET_ADOBEFLEX\bin\Release\DOTNET_ADOBEFLEX.exe
+D:\Fontes\fontesDotNet\sde2\DOTNET_ADOBEFLEX\bin\Release\DOTNET_ADOBEFLEX.pdb
+D:\Fontes\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Release\ResolveAssemblyReference.cache
+D:\Fontes\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Release\DOTNET_ADOBEFLEX.Form1.resources
+D:\Fontes\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Release\DOTNET_ADOBEFLEX.Properties.Resources.resources
+D:\Fontes\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Release\DOTNET_ADOBEFLEX.csproj.GenerateResource.Cache
+D:\Fontes\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Release\DOTNET_ADOBEFLEX.exe
+D:\Fontes\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Release\DOTNET_ADOBEFLEX.pdb
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\bin\Release\DOTNET_ADOBEFLEX.exe
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\bin\Release\DOTNET_ADOBEFLEX.pdb
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Release\ResolveAssemblyReference.cache
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Release\DOTNET_ADOBEFLEX.Form1.resources
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Release\DOTNET_ADOBEFLEX.Properties.Resources.resources
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Release\DOTNET_ADOBEFLEX.csproj.GenerateResource.Cache
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Release\DOTNET_ADOBEFLEX.exe
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Release\DOTNET_ADOBEFLEX.pdb

@@ -1,0 +1,12 @@
+F:\sistemadaempresa\fontes\Auxiliares\ConversorCSAS\obj\Release\ResolveAssemblyReference.cache
+F:\sistemadaempresa\fontes\Auxiliares\ConversorCSAS\obj\Release\ConversorCSAS.csproj.GenerateResource.Cache
+F:\sistemadaempresa\fontes\Auxiliares\ConversorCSAS\obj\Release\ConversorCSAS.Form1.resources
+F:\sistemadaempresa\fontes\Auxiliares\ConversorCSAS\obj\Release\ConversorCSAS.Properties.Resources.resources
+F:\sistemadaempresa\fontes\Auxiliares\ConversorCSAS\bin\Release\CSAS.exe
+F:\sistemadaempresa\fontes\Auxiliares\ConversorCSAS\bin\Release\CSAS.pdb
+F:\sistemadaempresa\fontes\Auxiliares\ConversorCSAS\obj\Release\CSAS.exe
+F:\sistemadaempresa\fontes\Auxiliares\ConversorCSAS\obj\Release\CSAS.pdb
+F:\sistemadaempresa\fontes\Auxiliares\ConversorCSAS\bin\Release\CSAS.exe.manifest
+F:\sistemadaempresa\fontes\Auxiliares\ConversorCSAS\bin\Release\CSAS.application
+F:\sistemadaempresa\fontes\Auxiliares\ConversorCSAS\obj\Release\CSAS.exe.manifest
+F:\sistemadaempresa\fontes\Auxiliares\ConversorCSAS\obj\Release\CSAS.application

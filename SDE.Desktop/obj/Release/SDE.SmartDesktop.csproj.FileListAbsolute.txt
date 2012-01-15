@@ -1,0 +1,8 @@
+C:\Inetpub\Web\software\SDE.SmartDesktop.exe
+C:\Inetpub\Web\software\SDE.SmartDesktop.pdb
+F:\sistemadaempresa\fontes\servidor1\SDE.SmartDesktop2\obj\Release\ResolveAssemblyReference.cache
+F:\sistemadaempresa\fontes\servidor1\SDE.SmartDesktop2\obj\Release\SDE.SmartDesktop.Properties.Resources.resources
+F:\sistemadaempresa\fontes\servidor1\SDE.SmartDesktop2\obj\Release\SDE.SmartDesktop.csproj.GenerateResource.Cache
+F:\sistemadaempresa\fontes\servidor1\SDE.SmartDesktop2\obj\Release\SDE.SmartDesktop.exe
+F:\sistemadaempresa\fontes\servidor1\SDE.SmartDesktop2\obj\Release\SDE.SmartDesktop.pdb
+F:\sistemadaempresa\fontes\servidor1\SDE.SmartDesktop2\obj\Release\SDE.SmartDesktop.FrmPrincipal.resources

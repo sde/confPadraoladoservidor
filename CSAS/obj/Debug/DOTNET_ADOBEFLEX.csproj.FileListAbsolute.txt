@@ -1,0 +1,16 @@
+C:\Documents and Settings\Thiago\Meus documentos\Visual Studio 2008\Projects\sde2\DOTNET_ADOBEFLEX\bin\Debug\DOTNET_ADOBEFLEX.exe
+C:\Documents and Settings\Thiago\Meus documentos\Visual Studio 2008\Projects\sde2\DOTNET_ADOBEFLEX\bin\Debug\DOTNET_ADOBEFLEX.pdb
+C:\Documents and Settings\Thiago\Meus documentos\Visual Studio 2008\Projects\sde2\DOTNET_ADOBEFLEX\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Thiago\Meus documentos\Visual Studio 2008\Projects\sde2\DOTNET_ADOBEFLEX\obj\Debug\DOTNET_ADOBEFLEX.Form1.resources
+C:\Documents and Settings\Thiago\Meus documentos\Visual Studio 2008\Projects\sde2\DOTNET_ADOBEFLEX\obj\Debug\DOTNET_ADOBEFLEX.Properties.Resources.resources
+C:\Documents and Settings\Thiago\Meus documentos\Visual Studio 2008\Projects\sde2\DOTNET_ADOBEFLEX\obj\Debug\DOTNET_ADOBEFLEX.csproj.GenerateResource.Cache
+C:\Documents and Settings\Thiago\Meus documentos\Visual Studio 2008\Projects\sde2\DOTNET_ADOBEFLEX\obj\Debug\DOTNET_ADOBEFLEX.exe
+C:\Documents and Settings\Thiago\Meus documentos\Visual Studio 2008\Projects\sde2\DOTNET_ADOBEFLEX\obj\Debug\DOTNET_ADOBEFLEX.pdb
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\bin\Debug\DOTNET_ADOBEFLEX.exe
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\bin\Debug\DOTNET_ADOBEFLEX.pdb
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Debug\ResolveAssemblyReference.cache
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Debug\DOTNET_ADOBEFLEX.Form1.resources
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Debug\DOTNET_ADOBEFLEX.Properties.Resources.resources
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Debug\DOTNET_ADOBEFLEX.csproj.GenerateResource.Cache
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Debug\DOTNET_ADOBEFLEX.exe
+\\Servidor\fontesDotNet\sde2\DOTNET_ADOBEFLEX\obj\Debug\DOTNET_ADOBEFLEX.pdb

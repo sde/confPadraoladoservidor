@@ -1,0 +1,5 @@
+﻿Esse código é a primeira versão do reescritor de código de C# para ActionScript
+
+ele escreverá entidades, enumeradores, parametros e serviços
+
+atenção: ele não deve ser substituído pela software CSAS_Nuvem

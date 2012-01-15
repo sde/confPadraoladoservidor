@@ -1,0 +1,6 @@
+﻿Esse código é a segunda versão do reescritor de código de C# para ActionScript
+
+ele escreverá tudo que é relevante para o cliente dentro pasta CamadaNuvem,
+criará uma arquivo Nuvem.as que amarra todas as modalidades
+
+atenção: ele não substituí o software CSAS
