@@ -1,0 +1,1 @@
+1-Alterar configuração de portas do CSAS E CSAS NUVEM clicando com o botao direito no projeto, opção properties e alterando a porta de comunicação para o numero de  porta do seu usuario.
